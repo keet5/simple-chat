@@ -32,7 +32,7 @@ export default {
   max-width: 1000px;
   margin: auto;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   flex-direction: column;
   align-items: center;
   padding: 0;

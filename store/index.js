@@ -2,7 +2,7 @@ const url = 'http://localhost:3001/messages'
 
 export const state = () => ({
   data: [],
-  name: 'Ihar',
+  name: '',
   id: 0,
 })
 
@@ -51,7 +51,7 @@ export const actions = {
 }
 
 const start = async store => {
-  const timer = setInterval(() => store.dispatch('updateManager', timer), 1000)
+  const timer = setInterval(() => store.dispatch('updateManager', timer), 250)
 }
 
 export const plugins = [start]
