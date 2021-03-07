@@ -33,5 +33,7 @@ export default {
   width: 100%;
   padding: 20px;
   grid-gap: 20px;
+  align-content: end;
+  min-height: 100%;
 }
 </style>

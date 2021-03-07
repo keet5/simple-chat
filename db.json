@@ -1,4 +1,9 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "name": "Anton",
+      "text": "Hi",
+      "id": 1
+    }
+  ]
 }
-
